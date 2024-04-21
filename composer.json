@@ -1,0 +1,16 @@
+{
+    "name": "lobyntsev/api-flowwow",
+    "type": "library",
+    "description": "A PHP parser written in PHP",
+    "authors": [
+        {
+            "name": "Alexey Lobyntsev"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-tokenizer": "*",
+        "ext-json": "*",
+        "ext-ctype": "*"
+    }
+}
