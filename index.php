@@ -4,7 +4,8 @@ namespace api;
 require __DIR__ . '/api/ApiController.php';
 
 
-$parser = new ApiController('latest', ['app_id' => 'App_id']);
+// $parser = new ApiController('convert', [19999.95, 'GPB', 'EUR'], ['app_id' => 'APP_ID', 'prettyprint' => true]);
+$parser = new ApiController('latest.json', [], ['app_id' => 'APP_ID']);
 try {
     $myrow = $parser->get();
 
